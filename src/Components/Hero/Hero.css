@@ -25,6 +25,10 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero-wrap{
+        padding: 10.875rem 0 6.375rem;
+    }
+
     .para1{
         font-size: 14px;
     }
