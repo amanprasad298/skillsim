@@ -1,0 +1,80 @@
+.sub-footer-wrap{
+    background: url('../Assets/Section.png');
+    background-size: cover;
+    padding: 3.875rem 0 2.875rem;
+    margin: 0;
+}
+
+.text-part h1{
+    font-size: 52px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.text-part p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.button-contact button{
+    width: 170px;
+    height: 54px;
+    background: #0E104B;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+.button-contact button:hover{
+    background: transparent;
+    color: #0E104B;
+    transition: all 0.3s ease;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .sub-footer-wrap{
+        padding: 2.875rem 0 1.875rem;
+    }
+    
+    .text-part h1{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    
+    .text-part p{
+        font-size: 16px;
+    }
+    
+    .button-contact button{
+        width: 140px;
+        height: 46px;
+        font-size: 14px;
+    }
+  }
+  
+  /* Mobile styles */
+  @media only screen and (max-width: 767px) {
+    .sub-footer-wrap{
+        padding: 1.875rem 0 0.875rem;
+    }
+    
+    .text-part h1{
+        font-size: 22px;
+        padding-bottom: 0px;
+        line-height: 1.6;
+    }
+    
+    .text-part p{
+        font-size: 12px;
+        padding-bottom: 8px;
+    }
+    
+    .button-contact button{
+        width: 100%;
+        height: 42px;
+        font-size: 12px;
+    }
+  }

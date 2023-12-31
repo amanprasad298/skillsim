@@ -3,7 +3,7 @@ import './Hero.css'
 
 const Hero = () => {
   return (
-    <div className="container-fluid hero-wrap">
+    <div className="hero-wrap m-lg-5">
         <div className='container'>
           <div className="text-content text-center">
             <p className='para1'>Welcome to SkillSim Event - Unleashing Potential!</p>
