@@ -6,6 +6,7 @@ import Card from '../Components/Card/Card'
 import Sponsor from '../Components/Sponsor/Sponsor'
 import ContactFooter from '../Components/ContactFooter/ContactFooter'
 import Transf from '../Components/Transf/Transf'
+import UpcomingProgram from '../Components/UpcomingProgram/UpcomingProgram'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Card/>
       <Transf/>
       <Sponsor/>
+      <UpcomingProgram/>
       <ContactFooter/>
     </div>
   )

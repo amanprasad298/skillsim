@@ -7,6 +7,8 @@ import FAQ from './Pages/FAQ'
 import Legal from './Pages/Legal'
 import Programs from './Pages/Programs'
 import Login from './Pages/Login'
+import Dynamic from "./Pages/Dynamic";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
           <Route path='/legal' element={<Legal/>}/>
           <Route path='/programs' element={<Programs/>}/>
           <Route path='/login' element={<Login/>}/>
+          <Route path='/dynamic-programs' element={<Dynamic/>}/>
         </Routes>
+        <Footer/>
         </BrowserRouter>
     </div>
   );

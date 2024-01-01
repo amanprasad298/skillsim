@@ -30,7 +30,7 @@
 }
 
 .texts-wrap h2{
-    font-size: 20px;
+    font-size: 20px !important;
     font-weight: 700;
     color: #001556;
 }
@@ -64,7 +64,7 @@
     }
     
     .texts-wrap h2{
-        font-size: 16px;
+        font-size: 16px !important;
         height: 36px;
     }
     
@@ -96,7 +96,7 @@
     }
     
     .texts-wrap h2{
-        font-size: 16px;
+        font-size: 16px !important;
         height: auto;
     }
     

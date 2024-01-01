@@ -23,7 +23,7 @@
 }
 
 .small-title{
-    font-size: 17px;
+    font-size: 17px !important; 
     font-weight: 700;
     color: #001556;
 }
